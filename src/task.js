@@ -9,7 +9,7 @@ export default class Task extends React.Component {
                 draggableId={ this.props.task.id }
                 index={ this.props.index }
             >
-                { (provided) => (
+                { (provided, snapshot) => (
                     <div
                         className="task"
                         { ...provided.draggableProps }

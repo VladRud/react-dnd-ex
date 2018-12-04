@@ -2,6 +2,9 @@
     margin: 8px;
     border: 1px solid lightgray;
     border-radius: 2px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
@@ -10,4 +13,5 @@ h3 {
 
 .list {
     padding: 8px;
+    flex-grow: 1;
 }
